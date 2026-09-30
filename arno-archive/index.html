@@ -3972,7 +3972,8 @@ button,[role="button"],.app,.chip,.close{touch-action:manipulation}
 /* Music: 창 높이에 맞춰 목록 스크롤 (PC 하단 잘림 수정) */
 #music.window.show{display:flex;flex-direction:column}
 #music .winbar{flex:0 0 auto}
-#music .content{flex:1 1 auto;height:auto;min-height:0;overflow-y:auto}
+#music .content{flex:1 1 auto;height:auto;min-height:0;overflow-y:auto;scrollbar-width:none;-ms-overflow-style:none}
+#music .content::-webkit-scrollbar{display:none;width:0;height:0}
 </style>
 </head>
 <body>
