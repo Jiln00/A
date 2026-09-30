@@ -863,6 +863,7 @@ button{color:inherit}
   color:#a2746d;
   text-align:center;
 }
+.lock-hint{margin-top:2px;font-size:9.5px;letter-spacing:.04em;color:rgba(128,120,112,.62);text-align:center}
 .unlock-content{display:none;margin-top:12px;text-align:left}
 .unlock-content.show{display:block}
 .unlock-content p{font-size:11px;line-height:1.6;color:#696159}
@@ -4153,7 +4154,7 @@ button,[role="button"],.app,.chip,.close{touch-action:manipulation}
           <dt>Name</dt><dd>Arno von Wrangel</dd>
           <dt>Age</dt><dd>31</dd>
           <dt>Birthday</dt><dd>10.16</dd>
-          <dt>Height</dt><dd>187 cm</dd>
+          <dt>Height</dt><dd>188 cm</dd>
           <dt>Gender</dt><dd>Male</dd>
           <dt>Origin</dt><dd>Germany</dd>
           <dt>Occupation</dt><dd>장례지도사</dd>
@@ -6007,6 +6008,7 @@ function openLockedLayer(layer){
         <button class="lock-submit" type="button">확인</button>
       </div>
       <div class="lock-error" aria-live="polite"></div>
+      <div class="lock-hint">Birthday</div>
     `;
 
     layer.classList.add('show');
