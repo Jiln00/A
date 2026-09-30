@@ -863,7 +863,8 @@ button{color:inherit}
   color:#a2746d;
   text-align:center;
 }
-.lock-hint{margin-top:2px;font-size:9.5px;letter-spacing:.04em;color:rgba(128,120,112,.62);text-align:center}
+.lock-hint{box-sizing:border-box;margin-top:2px;padding-right:64px;font-size:12px;letter-spacing:.06em;color:rgba(128,120,112,.7);text-align:center}
+@media (max-width:640px){.lock-hint{padding-right:66px;font-size:12.5px}}
 .unlock-content{display:none;margin-top:12px;text-align:left}
 .unlock-content.show{display:block}
 .unlock-content p{font-size:11px;line-height:1.6;color:#696159}
