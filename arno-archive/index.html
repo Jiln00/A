@@ -3969,6 +3969,10 @@ button,[role="button"],.app,.chip,.close{touch-action:manipulation}
   #calendarDetail .day-cell{min-height:60px!important;height:auto!important}
   #calendarDetail .detail-bottom{flex:1 1 auto!important;min-height:150px!important;max-height:none!important}
 }
+/* Music: 창 높이에 맞춰 목록 스크롤 (PC 하단 잘림 수정) */
+#music.window.show{display:flex;flex-direction:column}
+#music .winbar{flex:0 0 auto}
+#music .content{flex:1 1 auto;height:auto;min-height:0;overflow-y:auto}
 </style>
 </head>
 <body>
